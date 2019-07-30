@@ -1,0 +1,28 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color:rgb(223, 215, 215);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.color-git { color: #000;}
+.color-linked { color: #0077b5; }
+.color-steam { color: #000; }
+.color-tv { color: #6441a5}
+.color-insta { color: #e1306c; }
+.color-facebook { color: #3b5998; }
+.color-spotify { color: #1db954; }
+
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
